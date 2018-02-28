@@ -63,6 +63,10 @@ a playlist/queue with some subset of the following functionality:
 - fix bug when you load the URI http://localhost:3000/podcast/Song-Exploder the podcast data is not loaded
 - clean up the styling
 
+NOTE: currently we have lint errors in our code. Do not worrie if you can not fix them all. Just focus
+on making sure your code pass the linter. If you want to fix all the lint errors you can, but its not
+the main goal. Making a working application that is clean and easy to understand is the goal. 
+
 Though the main task is implementing the queue, please feel free to implement
 additional features if you like. This is your chance to shine: show us what you
 think is a good representation of your skills and interests.
