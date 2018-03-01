@@ -43,3 +43,73 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+.container {
+  margin: 0 auto;
+}
+.row {
+  
+  clear: both;
+}
+.col {
+  width: 50px;
+  height: 50px;
+  margin:0;
+  padding:0;
+  border:none;
+  outline:1px solid #000;
+}
+.col.cover {
+  background-color: #EEE;
+  cursor: pointer;
+}
+.col.mine {
+  background: url('mine.png') no-repeat center red;
+  background-size: contain;
+}
+.col.flag {
+  background: url('flag.png') no-repeat center;
+  background-size: contain;
+}
+.hidden {
+  display: none;
+}
+.box {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:1px solid #000;
+	display:inline-block;
+}
+.empty {
+  color: #EEE;
+}
+.one {
+  color: blue;
+}
+.two {
+  color: green;
+}
+.three {
+  color: red;
+}
+.four {
+  color: purple;
+}
+.five {
+  color: black;
+}
+.six {
+  color: maroon;
+}
+.seven {
+  color: gray;
+}
+.eight {
+  color: turquoise;
+}
+/*.mine {
+  background-image: url("./mine.png");
+}
+.flag {
+  background-image: url("./flag.png");
+}*/
