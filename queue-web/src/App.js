@@ -4,6 +4,7 @@ import './App.css';
 import PodcastList from './pages/podcast-list';
 import PodcastEpisodeList from './pages/podcast-episode-list';
 import AudioPlayer from './components/audioPlayer';
+import Queue from './components/Queue';
 import logo from './images/horizonsH.png';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
         <Router>
           <div className="App-body">
             <Route exact path="/" component={PodcastList}/>
+            <Route path="/queue" component={Queue}/>
             <Route path="/podcast/:slug" component={PodcastEpisodeList}/>
           </div>
         </Router>
